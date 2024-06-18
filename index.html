@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplicación del Clima</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Aplicación del Clima</h1>
+        
+        <div id="resultadoTiempo">
+            <!-- Los resultados del clima se mostrarán aquí -->
+        </div>
+
+        <form id="formularioTiempo">
+            <input type="text" id="cityInput" placeholder="Ingresa el nombre de la ciudad" required>
+            <select name="" id="PaisSelecionado">
+                <option value="">Selecciones un pais</option>
+                <option value="AR">Argentina</option>
+                <option value="CO">Colombia</option>
+                <option value="CR">Costa Rica</option>
+                <option value="ES">España</option>
+                <option value="US">Estados Unidos</option>
+                <option value="MX">Mexico</option>
+                <option value="PE">Peru</option>
+            </select>
+            <button type="submit" id="button">Buscar</button>
+        </form>
+  
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
